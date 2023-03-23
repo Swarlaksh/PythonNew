@@ -3,7 +3,8 @@ pipeline{
   stages{
     stage('CICD'){
       steps{
-         sh 'sudo ~/.local/bin/boman-cli -a run'
+         sh 'sudo pip install boman-cli'
+         sh ' ~/.local/bin/boman-cli -a run'
       }
     }
   }
