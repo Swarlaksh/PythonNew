@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('CICD'){
       steps{
-         sh 'sudo pip install boman-cli'
+         sh 'echo <swarna> | sudo -S pip install boman-cli' 
          sh ' ~/.local/bin/boman-cli -a run'
       }
     }
