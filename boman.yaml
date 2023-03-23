@@ -1,8 +1,10 @@
 Auth:
   project_token: 6b477b5b-51a4-4bdb-9d2a-3cb773e8aee0
   customer_token: 4b36ce06-05a1-43f9-a0e9-0c98a26594fa
-SAST:
-  language: python-snyk-sast
+# SAST:
+#   language: python-snyk-sast
+# DAST : 
+#   URL : www.testfire.net
 SCA:
-  language: python-snyk-sca
-Secret_Scan: true
+  language: python
+# Secret_Scan: true
