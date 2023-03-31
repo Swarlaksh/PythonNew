@@ -4,5 +4,5 @@ Auth:
 SAST:
   language: python
 SCA:
-  language: js
+  language: python
 Secret_Scan: true
